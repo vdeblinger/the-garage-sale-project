@@ -1,0 +1,168 @@
+body {
+    background-image: url("https://c1.wallpaperflare.com/preview/895/219/662/shelf-old-stock-container.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#title-website {
+    text-align: end;
+    font-size: 72px;
+    color: burlywood;
+    border-style: outset;
+    border-color: brown;
+    background-color: brown;
+    opacity: 0.5;
+}
+h3{
+    background-color: brown;
+    opacity: 0.5;
+    font-size: 60px;
+
+}
+#individual-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 85, 66);
+    border: 5px solid burlywood;
+    width: 40%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-bar{
+    text-align: start;
+    border: 2px solid  brown;
+    color: burlywood;
+    background-color: brown;
+    opacity: 0.7;
+    
+}
+#navbar-home {
+    padding: 15px;
+    font-size: 32px;
+}
+#navbar-posts {
+    padding: 15px;
+    font-size: 32px;
+}
+#navbar-register {
+    padding: 15px;
+    font-size: 32px;
+}
+#navbar-login {
+    padding: 15px;
+    font-size: 32px;
+}
+#navbar-profile {
+    padding: 15px;
+    font-size: 32px;
+}
+#image {
+    display: flex;
+    justify-content: center;
+
+}
+#delete-button {
+    background-color: brown;
+    margin-right: 15px;
+
+}
+#message-link {
+    background-color: burlywood;
+    margin-left: 15px;
+    border: 2px outset rgb(136, 85, 66);
+}
+#more-details{
+    background-color: rgb(136, 85, 66);
+    border: 5px solid burlywood;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#more-details-link{
+    background-color: burlywood;
+    border: 2px outset rgb(136, 85, 66);
+    padding: 1%;
+    font-size: 18px;
+}
+#message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid rgb(136, 85, 66);
+}
+#message-form-text{
+    background-color: burlywood;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+#message-form {
+    width: 500px;
+    height: 70px;
+}
+#profile-container {
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: burlywood;
+    border: 5px outset rgb(136, 85, 66);
+    /* width: 50%; */
+}
+#create-new-post-link {
+    background-color: rgb(136, 85, 66);
+    border: 4px outset burlywood;
+    padding: 1%;
+    text-align: center;
+
+}
+#description {
+    background-color: burlywood;
+    margin: 5px;
+    border: 2px outset rgb(136, 85, 66);
+}
+#creat-new-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid rgb(136, 85, 66);
+}
+#login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid rgb(136, 85, 66);
+}
+#register-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid rgb(136, 85, 66);
+}
+#my-message-container {
+    display: flex; 
+    flex-direction: row;
+    align-items: start;
+    
+
+}
+#my-post-container {
+    text-align: start;
+}
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid rgb(136, 85, 66);
+}
